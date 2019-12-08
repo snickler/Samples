@@ -106,7 +106,7 @@ namespace BlazorWizard.Components
             if (firstRender)
             {
                 SetActive(Steps[0]);
-               
+                StateHasChanged();
             }
         }
     }
